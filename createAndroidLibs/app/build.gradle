@@ -34,8 +34,11 @@ android {
     }
     externalNativeBuild {
         cmake {
-            //path file('/Users/panfeng/coder/myProject/LABdependLibs/libhv-master/CMakeLists.txt')
-            path file('/Users/panfeng/coder/myProject/LABdependLibs/assimp-master/CMakeLists.txt')
+            //path file('E:\\code\\LAB\\LABdependLibs\\assimp-master\\CMakeLists.txt')
+            //path file('E:\\code\\LAB\\LABdependLibs\\freetype-master\\CMakeLists.txt')
+            path file('E:\\code\\LAB\\LABdependLibs\\libhv-master\\CMakeLists.txt')
+
+            //path file('/Users/panfeng/coder/myProject/LABdependLibs/assimp-master/CMakeLists.txt')
             version '3.22.1'
         }
     }

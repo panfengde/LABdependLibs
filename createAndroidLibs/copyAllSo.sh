@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # 源路径（包含多个子目录，每个子目录中有 ABI 目录）
-SOURCE_DIR="/Users/panfeng/coder/myProject/LABdependLibs/createAndroidLibs/app/build/intermediates/cxx/Debug"
+SOURCE_DIR="E:\\code\\LAB\\LABdependLibs\\createAndroidLibs\\app\\build\\intermediates\\cxx\\RelWithDebInfo\\3a2t2e37"
 
 # 目标路径（将 .so 文件复制到的路径）
-DEST_DIR="/Users/panfeng/coder/myProject/LABdependLibs/outPutLibs"
+DEST_DIR="E:\\code\\LAB\\LABdependLibs\\outPutLibs"
 
 # 检查源目录是否存在
 if [ ! -d "$SOURCE_DIR" ]; then
