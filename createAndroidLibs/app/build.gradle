@@ -23,7 +23,8 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled false // 是否启用代码混淆，根据需要设置
+            shrinkResources false // 是否移除未使用的资源
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
@@ -33,7 +34,8 @@ android {
     }
     externalNativeBuild {
         cmake {
-            path file('/Users/panfeng/coder/myProject/LABdependLibs/libhv-masterCMakeLists.txt')
+            //path file('/Users/panfeng/coder/myProject/LABdependLibs/libhv-master/CMakeLists.txt')
+            path file('/Users/panfeng/coder/myProject/LABdependLibs/assimp-master/CMakeLists.txt')
             version '3.22.1'
         }
     }
@@ -43,7 +45,6 @@ android {
 }
 
 dependencies {
-
     implementation libs.appcompat
     implementation libs.material
     implementation libs.constraintlayout

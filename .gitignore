@@ -10,8 +10,8 @@ build
 .gradle/
 local.properties
 *.bat
-*.sh
 *.jar
+*.so
 
 # Build directories
 /build/
