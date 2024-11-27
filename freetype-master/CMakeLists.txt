@@ -452,6 +452,7 @@ endif ()
 
 
 add_library(freetype
+        SHARED
   ${PUBLIC_HEADERS}
   ${PUBLIC_CONFIG_HEADERS}
   ${PRIVATE_HEADERS}

@@ -3,7 +3,8 @@ const path = require("path");
 const { mkdirSync, copyFileSync, existsSync, readdirSync, statSync } = fs;
 
 // 源路径和目标路径
-const SOURCE_DIR = "E:\\code\\LAB\\LABdependLibs\\createAndroidLibs\\app\\build\\intermediates\\cxx\\RelWithDebInfo";
+//const SOURCE_DIR = "E:\\code\\LAB\\LABdependLibs\\createAndroidLibs\\app\\build\\intermediates\\cxx\\RelWithDebInfo";
+const SOURCE_DIR = "E:\\code\\LAB\\LABdependLibs\\createAndroidLibs\\app\\build\\intermediates\\cxx\\Debug";
 const DEST_DIR = "E:\\code\\LAB\\LABdependLibs\\outPutLibs";
 
 // 检查路径是否存在
