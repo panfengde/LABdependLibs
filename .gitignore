@@ -12,6 +12,9 @@ local.properties
 *.bat
 *.jar
 *.so
+*.dylib
+*.dll
+*.dll.a
 
 # Build directories
 /build/
