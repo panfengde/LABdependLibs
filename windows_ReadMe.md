@@ -17,6 +17,11 @@ cd 进入libffi的文件加目录，如
 cd E:/code/LAB/LABdependLibs/baseLibs/libffi-master
 ```
 
+生成configure等需要的文件等
+```MINGW64
+./autogen.sh
+```
+
 生成配置文件
 ```MINGW64
 ./configure prefix=E:/code/LAB/LABdependLibs/baseLibs/libffi-master/buildResult --enable-debug --disable-docs
